@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /
+
+# EDIT: Replace with your live GitHub Pages or custom domain URL
+Sitemap: https://username.github.io/maria-ville-maternity-hospital/sitemap.xml

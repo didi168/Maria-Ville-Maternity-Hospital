@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" width="48" height="48" fill="none" role="img" aria-label="Maria Ville Specialist Clinic and Maternity emblem">
+  <!-- Cradled Care Emblem: Luminous Mint-Sage badge with Deep Clinical Emerald cradling arcs and soft care cross -->
+  <rect x="2" y="2" width="44" height="44" rx="14" fill="#7EE0B1" stroke="#083330" stroke-width="2"/>
+  <!-- Outer protective maternal cradling arcs -->
+  <path d="M13 28.5C13 34.5 18 38.5 24 38.5C30 38.5 35 34.5 35 28.5" stroke="#083330" stroke-width="3" stroke-linecap="round"/>
+  <path d="M16.5 15.2C18.6 12.9 21.2 11.5 24 11.5C26.8 11.5 29.4 12.9 31.5 15.2" stroke="#083330" stroke-width="2.6" stroke-linecap="round"/>
+  <!-- Soft rounded medical care cross in the cradle -->
+  <rect x="21.5" y="16.5" width="5" height="15" rx="2.5" fill="#083330"/>
+  <rect x="16.5" y="21.5" width="15" height="5" rx="2.5" fill="#083330"/>
+  <!-- Warm terracotta-rose centre care dot -->
+  <circle cx="24" cy="24" r="2.2" fill="#D9785F"/>
+</svg>

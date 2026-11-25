@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en-NG">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+  <title>Page Not Found | Maria Ville Specialist Clinic &amp; Maternity</title>
+  <meta name="theme-color" content="#083330">
+  <link rel="icon" type="image/svg+xml" href="assets/svg/logo-placeholder.svg">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;600;700&family=Plus+Jakarta+Sans:wght@700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+  <style>
+    .not-found {
+      min-height: 100vh;
+      min-height: 100dvh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background: var(--color-primary-dark);
+      color: var(--color-text-on-dark);
+      padding: 2rem var(--gutter);
+      text-align: center;
+    }
+    .not-found__card {
+      max-width: 520px;
+      padding: clamp(2rem, 5vw, 3rem);
+      border-radius: var(--radius-lg);
+      background: var(--color-primary-mid);
+      border: 1px solid var(--color-border-dark);
+    }
+    .not-found__code {
+      font-family: var(--font-display);
+      font-size: clamp(3rem, 8vw, 4.5rem);
+      font-weight: 800;
+      color: var(--color-accent);
+      line-height: 1;
+      margin-bottom: 0.75rem;
+    }
+    .not-found__title {
+      font-size: 1.5rem;
+      margin-bottom: 0.75rem;
+    }
+    .not-found__body {
+      color: var(--color-text-on-dark-muted);
+      margin-bottom: 1.75rem;
+    }
+    .not-found__actions {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 0.75rem;
+    }
+  </style>
+</head>
+<body>
+  <main class="not-found">
+    <div class="not-found__card">
+      <p class="not-found__code">404</p>
+      <h1 class="not-found__title">Page not found</h1>
+      <p class="not-found__body">
+        The page you requested could not be found. Return to Maria Ville Specialist Clinic &amp; Maternity or call our 24-hour desk directly.
+      </p>
+      <div class="not-found__actions">
+        <a class="btn-pill btn-pill--accent" href="./">
+          <span class="btn-pill__label">Back to Home</span>
+          <span class="btn-pill__badge btn-pill__badge--dark" aria-hidden="true">
+            <svg class="icon icon--sm" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="m6 17 5-5-5-5"/><path d="m13 17 5-5-5-5"/></svg>
+          </span>
+        </a>
+        <a class="btn-pill btn-pill--outline-light" href="tel:+2348060296224">
+          <span class="btn-pill__label">Call +234 806 029 6224</span>
+        </a>
+      </div>
+    </div>
+  </main>
+</body>
+</html>
